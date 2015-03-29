@@ -1,8 +1,8 @@
 # OpenKeyStats
 
-OpenKeyStats is an opensource software that keep track of your typing hanits and provides great data analytics of them.
+OpenKeyStats is an open source software that keep track of your typing habits and provides great data analytics of them.
 
-For now, it only works for mac osx.
+For now, it only works on mac osx.
 
 ### TODO
 
