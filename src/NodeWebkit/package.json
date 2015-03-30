@@ -1,6 +1,7 @@
 {
   "name": "OpenKeyStats",
   "main": "index.html",
+  "node-main": "app.js",
   "window": {
     "title":      "OpenKeyStats",
     "toolbar":    false,
@@ -11,7 +12,14 @@
     "resizable":  true,
     "min_width":  400,
     "min_height": 200,
-    "max_width":  800,
-    "max_height": 600
+    "maximized": true
+  },
+  "webkit": {
+  "plugin": true
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "3.3.4",
+    "jquery": "2.1.3 "
   }
 }

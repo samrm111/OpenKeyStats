@@ -1,10 +1,22 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Hello World!</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
   </head>
-  <body>
-    <h1>Hello World!</h1>
+  <body style="-webkit-app-region: drag">
+    <div style="-webkit-app-region: drag" class="row nav-menu">
+
+        <button class="closeWindow" onclick="appWindow.close()">
+        <button class="minimize"onclick="appWindow.minimize()">
+        <button class="fullscreen" onclick="appWindow.maximize()">
+    </div>
+    <h1>OpenKeyStats</h1>
     We are using node.js <script>document.write(process.version)</script>.
+    <script src="app.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
   </body>
 </html>

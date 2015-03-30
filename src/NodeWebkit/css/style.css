@@ -1,0 +1,64 @@
+@import url("fonts.css");
+
+body{
+  background-color: #EEEDEC;
+  font-family: Roboto;
+  color: #333;
+  -webkit-user-select: none;
+}
+
+h1, h2, h3, h4, h5, h5{
+  font-weight: black;
+}
+
+button:focus{
+  outline: none;
+}
+
+.row{
+  margin:0px;
+}
+
+.nav-menu{
+  height: 25px;
+  background-color : #ccc;
+}
+.nav-menu button{
+  margin-left : 5px;
+}
+
+.closeWindow{
+  background:radial-gradient(
+      circle,
+      #ff6056,
+      #ff6059
+    );
+  border-radius: 50%;
+  width: 15px;
+  height:15px;
+  border:1px solid #df8783;
+}
+
+.minimize{
+  background:radial-gradient(
+      circle,
+      #fec443,
+      #ffbe42
+    );
+  border-radius: 50%;
+  width:15px;
+  height:15px;
+  border:1px solid #dcb965;
+}
+
+.fullscreen{
+  background:radial-gradient(
+      circle,
+      #00cc53,
+      #00d958
+    );
+  border-radius: 50%;
+  width: 15px;
+  height:15px;
+  border:1px solid #78c68b;
+}
