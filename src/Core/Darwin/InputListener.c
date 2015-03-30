@@ -257,9 +257,11 @@ void create_tap_listener(){
     CFMachPortRef      tapEvent;
     CFRunLoopSourceRef runLoopSource;
     
+    CGEventMask eventMask = ((1 << kCGEventKeyUp) | (1 << kCGEventFlagsChanged));
+    
     // Initialize the event
     tapEvent = CGEventTapCreate(kCGSessionEventTap, kCGHeadInsertEventTap, 0,
-                                kCGEventMaskForAllEvents, keyEventCallBack, NULL);
+                                eventMask, keyEventCallBack, NULL);
     
     // verify for failure
     if (!tapEvent) {
